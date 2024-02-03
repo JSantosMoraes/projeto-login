@@ -7,6 +7,8 @@
 
     section#login {
         width: 80vw;
+        height: 360px;
+
     }
 
     section#login>div#imagem {
@@ -19,6 +21,42 @@
         float: right;
         width: 70%;
     }
+
+    div#formulario>p {
+        font-size: 1em;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    div.campo>input#ilogin {
+        background-color: #92cfcd;
+        border: none;
+        width: calc(100% - 45px);
+        border-radius: 8px;
+        padding: 10px;
+        transform: translateY(-13.4px);
+    }
+
+    div.campo>input {
+        background-color: #92cfcd;
+        border: none;
+        width: calc(100% - 45px);
+        border-radius: 8px;
+        padding: 10px;
+        transform: translateY(-13.4px);
+    }
+
+    div.campo input#isenha {
+        background-color: #92cfcd;
+        border: none;
+        width: 48.7vw;
+        border-radius: 8px;
+        transform: translateY(-13.4px);
+    }
+
+    div.campo input#ilogin:focus-within {
+        background-color: white;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -28,6 +66,8 @@
 
     section#login {
         width: 950px;
+        height: 450px;
+
     }
 
     section#login>div#imagem {
@@ -41,12 +81,44 @@
         width: 50%;
     }
 
-    div#formulario > h1 {
+    div#formulario>h1 {
         font-size: 2em;
     }
-    
+
     div#formulario>p {
         font-size: 1.2em;
+        margin: 20px 0;
+        text-align: center;
     }
-    
+
+    div.campo>input#ilogin {
+        background-color: #92cfcd;
+        border: none;
+        width: calc(100% - 45px);
+        border-radius: 8px;
+        padding: 10px;
+        transform: translateY(-13.4px);
+    }
+
+    div.campo>input {
+        background-color: #92cfcd;
+        border: none;
+        width: calc(100% - 45px);
+        border-radius: 8px;
+        padding: 10px;
+        transform: translateY(-13.4px);
+    }
+
+    div.campo input#isenha {
+        background-color: #92cfcd;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        padding-right: 239px;
+        transform: translateY(-13.4px);
+    }
+
+    div.campo input#ilogin:focus-within {
+        background-color: white;
+    }
 }
